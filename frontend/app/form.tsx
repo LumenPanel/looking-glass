@@ -36,7 +36,9 @@ export default function LookingGlassForm({ config }: any) {
     setResult("");
   };
 
-  const handleRequest = async () => {
+  const handleRequest = async (e: any) => {
+    e.preventDefault();
+
     setLoading(true);
     setResult("");
 
@@ -108,7 +110,10 @@ export default function LookingGlassForm({ config }: any) {
               </div>
             )}
           </div>
-          <div className="flex flex-col md:flex-row gap-4">
+          <form
+            onSubmit={handleRequest}
+            className="flex flex-col md:flex-row gap-4"
+          >
             <Input
               disabled={loading}
               value={ip}
@@ -133,14 +138,10 @@ export default function LookingGlassForm({ config }: any) {
                 </SelectContent>
               </Select>
             </div>
-            <Button
-              disabled={loading}
-              onClick={handleRequest}
-              className=" w-32"
-            >
+            <Button disabled={loading} type={"submit"} className=" w-32">
               {loading ? <Spinner /> : "Run"}
             </Button>
-          </div>
+          </form>
         </CardContent>
       </Card>
       <Card
