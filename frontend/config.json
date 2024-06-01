@@ -1,0 +1,39 @@
+{
+  "brand": {
+    "name": "LumenPanel - Looking Glass",
+    "logo": "https://lumen.olekaleksander.dev/_next/static/media/logo.6709da28.svg",
+    "invertLogo": true
+  },
+  "locations": [
+    {
+      "name": "Europe",
+      "backends": [
+        {
+          "name": "Example location 1",
+          "url": "http://localhost:8080",
+          "info": {
+            "ipv4": "192.168.0.1",
+            "ipv6": "2b5b:1e49:8d01:c2ac:fffd:833e:dfee:13a4",
+            "location": "Europe",
+            "datacenter": "Datacenter"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Asia",
+      "backends": [
+        {
+          "name": "Example location 2",
+          "url": "http://localhost:8480",
+          "info": {
+            "ipv4": "192.168.0.1",
+            "ipv6": "2b5b:1e49:8d01:c2ac:fffd:833e:dfee:13a4",
+            "location": "China",
+            "datacenter": "Datacenter"
+          }
+        }
+      ]
+    }
+  ]
+}
