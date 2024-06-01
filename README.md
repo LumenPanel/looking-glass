@@ -16,11 +16,6 @@
 
 </p>
 
-<p align="center" style="margin-top:-20px;">
-    <img src="https://img.shields.io/github/commits-since/lumenpanel/looking-glass/latest?style=for-the-badge">
-    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/lumenpanel/looking-glass?style=for-the-badge">
-<p>
-
 # Lumen Looking Glass
 
 A modern Looking Glass solution, an updated replacement/alternative for [Smokey](https://github.com/KittensAreDaBest/smokey).
