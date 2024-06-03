@@ -159,7 +159,9 @@ export default function LookingGlassForm({ config }: any) {
           </div>
         </CardHeader>
         <CardContent>
-          <pre className="bg-secondary p-3 rounded-md">{result}</pre>
+          <pre className="overflow-x-scroll md:overflow-hidden bg-secondary p-3 rounded-md">
+            {result}
+          </pre>
         </CardContent>
       </Card>
     </div>
