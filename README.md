@@ -69,7 +69,7 @@ A modern Looking Glass solution, an updated replacement/alternative for [Smokey]
 7. **Build and Run the App:**
 
    ```sh
-   bun build
+   bun run build
    pm2 start "bun start" --name lookingglass
    pm2 save
    ```
