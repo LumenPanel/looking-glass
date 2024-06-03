@@ -82,8 +82,8 @@ export default function LookingGlassForm({ config }: any) {
         <CardContent>
           <div>
             {selectedBackend.info && (
-              <div className="flex flex-row mb-12 mt-64font-medium justify-between text-lg">
-                <div className="flex flex-col mx-2">
+              <div className="flex flex-col lg:flex-row mb-12 gap-6 font-medium justify-between text-lg">
+                <div className="flex flex-col">
                   <span className="text-sm font-normal text-foreground/80">
                     IPv4
                   </span>

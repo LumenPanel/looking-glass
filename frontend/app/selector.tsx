@@ -18,7 +18,7 @@ export default function BackendSelector({
       onValueChange={(value) => onBackendChange(value)}
       value={selectedBackend.name}
     >
-      <SelectTrigger className="max-w-24 sm:max-w-48 h-8 -mt-2">
+      <SelectTrigger className="max-w-36 sm:max-w-48 h-8 -mt-2">
         <SelectValue placeholder="Node" />
       </SelectTrigger>
       <SelectContent>
