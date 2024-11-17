@@ -18,7 +18,7 @@
 
 # Lumen Looking Glass
 
-A modern Looking Glass solution, an updated replacement/alternative for [Smokey](https://github.com/KittensAreDaBest/smokey).
+A modern Looking Glass solution.
 
 ## Installation
 
